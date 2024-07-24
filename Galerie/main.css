@@ -1,1 +1,101 @@
-/* css */
+body {
+    background-color: #FFF6F6;
+}
+
+.logo {
+    width: 9%;
+    height: auto;
+    padding-left: 23%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2.5%;
+    margin-right: 1.2%;
+    font-size: 40px;
+}
+
+li {
+    width: 7%;
+    height: 40px;
+    background: #E90074;
+    border-radius: 5px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+
+    font-size: 14px;
+}
+
+li:hover {
+    padding: 5px 7px;
+    background: #EE74D5;
+    transition-duration: 0.5s;
+    transform: translateY(-3px);
+}
+
+ul {
+    gap: 6px;
+    display: flex;
+}
+
+.top {
+    margin-top: -120px;
+    margin-right: 60px;
+    justify-content: center;
+}
+
+.text {
+    font-family: 'Avenir Book', sans-serif;
+    color: #FFF6F6;
+}
+
+.nadpis {
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #E90074;
+    letter-spacing: 5px;
+}
+
+.zacatek {
+    text-align: center;
+    color: #182C25;
+    font-family: 'Avenir Book', sans-serif;
+    background: #e4d8c8;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.kvet1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kvet2 {
+    display: flex;
+    justify-content: space-evenly;
+    background: #e4d8c8;
+}
+
+.kvet3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kvetiny {
+    width: 400px;
+    height: auto;
+    border-radius: 80px;
+    padding: 30px;
+}
+
+.kvetiny:hover {
+    width: 400px;
+    height: auto;
+    border-radius: 80px;
+    padding: 30px;
+    filter: opacity(50%);
+    transition-duration: 0.3s;
+    
+}
