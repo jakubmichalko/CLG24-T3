@@ -67,10 +67,38 @@ ul {
     font-size: 18px;
 }
 
+
+
 .kvet1 {
     display: flex;
     justify-content: space-evenly;
 }
+
+.kytka1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.cena1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.kytka2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.cena2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+
 
 .kvet2 {
     display: flex;
@@ -78,9 +106,67 @@ ul {
     background: #e4d8c8;
 }
 
+.kytka3 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.cena3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.kytka4 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.cena4 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+
+
 .kvet3 {
     display: flex;
     justify-content: space-evenly;
+}
+
+.kytka5 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.cena5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.kytka6 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.cena6 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:#E90074;
+        font-family: 'Avenir Book', sans-serif;
+        font-size: 18px;
+        opacity: 0%;
+        transition-duration: 3ms;
+}
+.cena6:hover {
+    opacity: 60%;
 }
 
 .kvetiny {
