@@ -57,3 +57,23 @@ ul {
     font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     color: #182C25;
 }
+
+.com {
+    width: 70%;
+    height: 80px;
+    background: #FF8EE7;
+    margin-left: 12%;
+    margin-top: 1%;
+     
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.name {
+    
+}
