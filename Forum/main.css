@@ -35,11 +35,11 @@ li {
 
 li:hover {
     padding: 5px 7px;
-    background: #E90074 ;
+    background: #EE74D5;
     transition-duration: 0.5s;
     transform: translateY(-3px);
-    box-shadow: #ddd2d2 3px 3px 2px;
-  }
+}
+  
   
 ul {
     gap: 6px;
@@ -57,12 +57,13 @@ ul {
     color: #182C25;
 
 }
-.button {
+.top.block.text {
     color: #FFF6F6;
 }
 .nadpis {
     font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-    color: #182C25;
+    color: #E90074;
+    letter-spacing: 5px;
 }
 
 .com {
@@ -94,7 +95,7 @@ ul {
     margin-left: 15%;
     margin-top: auto;
     border-radius: 5px;
-     
+    
     justify-content: flex-start;
     display: flex;
     align-items: center;
@@ -112,12 +113,23 @@ ul {
 
 }
 
-.contacts {
-    width: 100%;
+footer {
+    width: 80%;
     height: auto;
     background-color: rgba(254, 181, 207, 0.797);
-    justify-content: center;
     display: flex;
     align-items: center;
+    padding-right: 20%;
+
+}
+
+.info.nadpis {
+    font-size: 25px;
+    padding-left: 15%;
     
+}
+
+#fcont {
+    color: #182C25;
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
