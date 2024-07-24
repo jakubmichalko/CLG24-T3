@@ -57,7 +57,9 @@ ul {
     color: #182C25;
 
 }
-
+.button {
+    color: #FFF6F6;
+}
 .nadpis {
     font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     color: #182C25;
@@ -111,10 +113,10 @@ ul {
 }
 
 .box {
-    width: 9%;
-    height: 400px;
+    width: 15%;
+    height: 820px;
     background: pink;
-    
+    margin-top: 1000px;
     justify-content: flex-start;
     display: flex;
     align-items: center;
@@ -122,7 +124,7 @@ ul {
 
 }
 
-.mix {
-    gap: 6px;
+article {
+    gap: 90%;
     display: flex;
     }
