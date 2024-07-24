@@ -21,7 +21,7 @@ h2 {
 li {
     width: 7%;
     height: 40px;
-    background: #FF8EE7;
+    background: #E90074;
     border-radius: 5px;
     
     justify-content: center;
@@ -35,9 +35,10 @@ li {
 
 li:hover {
     padding: 5px 7px;
-    background: #EE74D5;
+    background: #E90074 ;
     transition-duration: 0.5s;
     transform: translateY(-3px);
+    box-shadow: #ddd2d2 5px 5px;
   }
   
 ul {
@@ -64,7 +65,7 @@ ul {
 .com {
     width: 70%;
     height: 80px;
-    background: #FF8EE7;
+    background: #c5b196;
     margin-left: 12%;
     margin-top: 1%;
      
