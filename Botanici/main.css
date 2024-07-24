@@ -1,45 +1,42 @@
-/* css */
+body {
+    background-color: #FFF6F6;
+}
+
 .logo {
     width: 9%;
     height: auto;
     padding-left: 22%;
 }
 
+
 .profily{
     width: auto;
-    height: 320px;
-    
+    height: 220px;
 }
+
 
 .profily1{
     display:flex;
-    justify-content: space-around;
-}
+    justify-content: space-around 40px;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+    
 
+}
 h1 {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5%;
+    margin-right: 1.2%;
+    font-size: 40px;
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #E90074;
+    letter-spacing: 5px;
 }
 
 h2 {
     text-align: center;
     margin-top: auto;
-}
-
-li {
-    width: 100px;
-    height: 40px;
-    background: #FF8EE7;
-    
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 5px 7px;
-    
-    font-family: sans-serif;
-    font-size: 12px;
-    color: black;
-
 }
 
 li:hover {
@@ -59,3 +56,40 @@ ul {
     margin-right:60px;
     justify-content: center;
 }
+
+.text {
+    font-family: 'Avenir Book', sans-serif;
+    color: #FFF6F6;
+}
+
+
+
+
+li {
+    width: 7%;
+    height: 40px;
+    background: #E90074;
+    border-radius: 5px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+
+    font-size: 14px;
+}
+
+
+
+
+}/* .profily{
+    width: auto;
+    height: 320px;
+ 
+}
+
+.profily1{
+    display:flex;
+    justify-content: space-around;
+}
+    */
