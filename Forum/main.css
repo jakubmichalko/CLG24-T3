@@ -1,19 +1,22 @@
 .logo {
     width: 145px;
     height: auto;
+    padding-left: 420px;
 }
 
 h1 {
     text-align: center;
+    margin-top: 40px;
 }
 
 h2 {
     text-align: center;
+    margin-top: auto;
 }
 
 li {
-    width: 80px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     background: #FF8EE7;
     
     justify-content: center;
@@ -35,8 +38,12 @@ li:hover {
   }
   
 ul {
-    gap: 10px;
+    gap: 7px;
     display: flex;
-    justify-content: center;
     }
-  
+
+.top {
+    margin-top: -120px;
+    margin-right:60px;
+    justify-content: center;
+}
