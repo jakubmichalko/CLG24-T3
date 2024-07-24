@@ -1,13 +1,13 @@
 .logo {
     width: 9%;
     height: auto;
-    padding-left: 420px;
+    padding-left: 23%;
 }
 
 h1 {
     text-align: center;
-    margin-top: 40px;
-    margin-right: 25px;
+    margin-top: 2.5%;
+    margin-right: 1.2%;
 }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
 }
 
 li {
-    width: 100px;
+    width: 7%;
     height: 40px;
     background: #FF8EE7;
     border-radius: 5px;
