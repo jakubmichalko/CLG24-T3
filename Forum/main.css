@@ -112,19 +112,12 @@ ul {
 
 }
 
-.box {
-    width: 15%;
-    height: 820px;
-    background: pink;
-    margin-top: 1000px;
-    justify-content: flex-start;
+.contacts {
+    width: 100%;
+    height: auto;
+    background-color: rgba(254, 181, 207, 0.797);
+    justify-content: center;
     display: flex;
     align-items: center;
-    padding: 5px 7px;
-
+    
 }
-
-article {
-    gap: 90%;
-    display: flex;
-    }
