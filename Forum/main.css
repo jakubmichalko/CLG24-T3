@@ -65,10 +65,30 @@ ul {
 
 .com {
     width: auto;
-    height: 80px;
+    height: 70px;
     background: #e4d8c8;
-    margin-left: 14%;
+    margin-left: 8%;
     margin-top: auto;
+    border-radius: 5px;
+
+     
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.rep{
+    width: auto;
+    height: 70px;
+    background: #FFF6F6;
+    margin-left: 17%;
+    margin-top: auto;
+    border-radius: 5px;
      
     justify-content: flex-start;
     display: flex;
@@ -80,22 +100,7 @@ ul {
 }
 
 .name {
-    margin-top: -4%;
-    margin-left: -10%;
-}
+    margin-top: -2.1%;
+    color: #182c25a7;
 
-.rep{
-    width: auto;
-    height: 80px;
-    background: #FFF6F6;
-    margin-left: 17%;
-    margin-top: auto;
-     
-    justify-content: flex-start;
-    display: flex;
-    align-items: center;
-    padding: 5px 7px;
-
-    font-size: 15px;
-    font-weight: 500;
 }
