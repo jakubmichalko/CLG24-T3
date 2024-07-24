@@ -64,10 +64,10 @@ ul {
 }
 
 .com {
-    width: auto;
+    width: 80%;
     height: 70px;
     background: rgba(255, 192, 203, 0.201);
-    margin-left: 8%;
+    margin-left: 10%;
     margin-top: auto;
     border-radius: 5px;
 
@@ -86,10 +86,10 @@ ul {
 
 
 .rep{
-    width: auto;
+    width: 75%;
     height: 70px;
     background: #FFF6F6;
-    margin-left: 13%;
+    margin-left: 15%;
     margin-top: auto;
     border-radius: 5px;
      
@@ -109,3 +109,20 @@ ul {
     color: #182c25a7;
 
 }
+
+.box {
+    width: 9%;
+    height: 400px;
+    background: pink;
+    
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+
+}
+
+.mix {
+    gap: 6px;
+    display: flex;
+    }
