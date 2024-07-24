@@ -1,3 +1,6 @@
+body{
+    background-color: #FFF6F6;
+}
 .logo {
     width: 9%;
     height: auto;
@@ -75,5 +78,6 @@ ul {
 }
 
 .name {
-    
+    margin-top: -4%;
+    margin-left: -15%;
 }
