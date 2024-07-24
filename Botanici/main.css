@@ -1,8 +1,12 @@
 /* css */
 .logo {
-    width: 145px;
+    width: 9%;
     height: auto;
-    padding-left: 420px;
+    padding-left: 22%;
+}
+.profily {
+    width: 200px;
+    height: auto;
 }
 
 h1 {
