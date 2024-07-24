@@ -1,1 +1,50 @@
 /* css */
+.logo {
+    width: 145px;
+    height: auto;
+    padding-left: 420px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: auto;
+}
+
+li {
+    width: 100px;
+    height: 40px;
+    background: #FF8EE7;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+    
+    font-family: sans-serif;
+    font-size: 12px;
+    color: black;
+
+}
+
+li:hover {
+    padding: 5px 7px;
+    background: #EE74D5;
+    transition-duration: 0.5s;
+    transform: translateY(-3px);
+  }
+  
+ul {
+    gap: 7px;
+    display: flex;
+    }
+
+.top {
+    margin-top: -120px;
+    margin-right:60px;
+    justify-content: center;
+}
