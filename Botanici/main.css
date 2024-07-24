@@ -4,9 +4,16 @@
     height: auto;
     padding-left: 22%;
 }
-.profily {
-    width: 200px;
-    height: auto;
+
+.profily{
+    width: auto;
+    height: 320px;
+    
+}
+
+.profily1{
+    display:flex;
+    justify-content: space-around;
 }
 
 h1 {
