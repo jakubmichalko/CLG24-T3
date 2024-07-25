@@ -3,7 +3,7 @@ title{
 }
 
 h1{
-    background-color: #FFF6F6;
+    background-color: #ffdfef;
     color: #E90074;
     padding: 15px;
     padding-top: 10px;
@@ -56,9 +56,6 @@ hr{
 }
 /* ----------------------------------navigace--------------------------------------------- */
 
-.soc{
-
-}
 
 .logo {
     width: 9%;
@@ -74,7 +71,7 @@ hr{
 
 
 li {
-    width: 7%;
+    width: 15%;
     height: 40px;
     background: #ff0080;
     border-radius: 5px;
@@ -109,7 +106,7 @@ ul {
 }
 
 nav{
-    background-color: #FFF6F6;
+    background-color: #E90074;
     border-radius: 15px;
     padding-top: 125px;
     padding-bottom: 10px;
