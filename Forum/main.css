@@ -161,6 +161,8 @@ footer {
     align-items: center;
     line-height: 2;
     letter-spacing: 2px;
+    border-radius: 10px;
+    
 
     justify-content: flex-start;
     bottom: 0;
