@@ -172,22 +172,7 @@ footer {
         margin-left:50px;
         border-radius: 15px;
     }
-    
-    h1{
-        background-color: #ffdfef;
-        color: #E90074;
-        padding: 15px;
-        padding-top: 10px;
-        border-radius: 15px;
-        text-align: center;
-        font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-    }
-    
-    h2 {
-        text-align: center;
-        margin-top: auto;
-    }
-    
+        
     .logo {
         width: 9%;
         height: auto;
