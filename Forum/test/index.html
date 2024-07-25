@@ -76,12 +76,13 @@
         .rating i:hover {
             color: gold;
         }
-        textarea {
+        textarea, input {
             width: 100%;
             padding: 10px;
             margin-top: 10px;
             border-radius: 5px;
             border: 1px solid #ccc;
+            justify-content: center;
         }
         #submitRating {
             display: block;
@@ -101,6 +102,8 @@
         #reviewsContainer {
             width: 80%;
             max-width: 500px;
+            display: flex;
+            justify-content: space-evenly;
         }
         .review {
             background-color: #fff;
@@ -108,6 +111,9 @@
             margin-bottom: 10px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            
+
+            
         }
         .review-stars {
             display: flex;
@@ -129,6 +135,7 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>Rate and Comment</h2>
+            <input id="nameText" type="text" placeholder="Your name (optional)" />
             <div class="rating" id="ratingStars">
                 <i class="fas fa-star" data-rating="1"></i>
                 <i class="fas fa-star" data-rating="2"></i>
@@ -142,6 +149,6 @@
     </div>
 
     <!-- Link to JavaScript file -->
-    <script src="../test/script.js"></script>
+    <script src="../../script.js"></script>
 </body>
 </html>

@@ -6,6 +6,8 @@
     <title>Recenze</title>
     <link rel="stylesheet" href="../Forum/main.css">
     <link rel="icon" href="../imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Include Font Awesome -->
+
 </head>
 <body>
     <img class="logo block" src="../imgs/logo.png" alt="Logo Florabelle">
@@ -32,21 +34,34 @@
         <h1 class="nadpis" style="font-size: 40px ;"> RECENZE </h1>
     </header>
 
-    <div class="com text rec first">     <p class="name text">  Věnceslav69420: </p>
-        Dobrý den, na kytce z vašeho obchodu si pochutnala moje kočka Nellinka a poslední 3 hodiny běhá po bytě. Je tento jev běžný?</div>
-    <div></div>
-    <div class="rep text rec">  <p class="name text">  admin87: </p> Dobrý den, omlouváme se, ale naše expertíza se týka pouze květin. Na problémy s Vaším mazlíčkem doporučuji stránku my healthy cat. </div>  
-    <div></div>
-    <div class="com text rec">   <p class="name text">  tvojematkaxoxo: </p> kytke je dead 😔💔</div>
-    <div></div>
-    <div class="rep text rec ">  <p class="name text">  admin:3: </p> blbý</div>
-    <div></div>
-    <div class=" com text rec">  <p class="name text">  XxXruskyspionXxX: </p> RAAAAAAAAAAAAAAAH 🦅🦅🦅🦅🦅🦅</div>
-    <div class=" com text rec "> <p class="name text">skibidi_rizzler</p>nejvíc jsem rizznul jednu sigmu díky vaším kytkám!!</div>
-    <div class = "com text rec"> <p class="name text"> alpha-vlk</p> WOOF WOOF WOOF</div>
 
-    <div class="text button"> Přidat recenzi </div>
-    
+    <button id="openModal" class="nadpis" style="letter-spacing: 2px;">NAPIŠ RECENZI</button>
+
+    <!-- Reviews Container -->
+    <div id="reviewsContainer"></div>
+
+    <!-- The Modal -->
+    <div id="ratingModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="nadpis " style="letter-spacing: 2px;">Hodnocení</h2>
+            <input id="nameText" class = "text" type="text" placeholder="Jméno" />
+            <div class="rating" id="ratingStars">
+                <i class="fas fa-star" data-rating="1"></i>
+                <i class="fas fa-star" data-rating="2"></i>
+                <i class="fas fa-star" data-rating="3"></i>
+                <i class="fas fa-star" data-rating="4"></i>
+                <i class="fas fa-star" data-rating="5"></i>
+            </div>
+            <textarea id="commentText"  class="text" rows="4" placeholder="Vylijte své srdíčko"></textarea>
+            <button class="nadpis" style="letter-spacing: 2px;" id="submitRating">ZVEŘEJNIT</button>
+        </div>
+    </div>
+
+
+
+<script src="../script.js"></script>
+
     <footer>
         <div class="nadpis info" > INFORMACE:</div>
         <pre  id="fcont">
