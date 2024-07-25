@@ -1,4 +1,26 @@
+body{
+    background-color: #FFF6F6;
+    background-image: url('.https://xmple.com/wallpaper/gradient-pink-white-linear-1920x1080-c2-ffffff-ff69b4-a-270-f-14.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
+head{
+    background-color:#FFF6F6;
+}
+
+.logo {
+    width: 9.2%;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: -200px;
+    background-color: #ffdfef;
+    background-clip: border-box;
+    margin-left:50px;
+    border-radius: 15px;
+}
 
 h1{
     background-color: #ffdfef;
@@ -10,19 +32,6 @@ h1{
     font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     letter-spacing: 2px;
 }
-
-head{
-    background-color:#FFF6F6;
-}
-
-body{
-    background-color: #FFF6F6;
-    background-image: url('.https://xmple.com/wallpaper/gradient-pink-white-linear-1920x1080-c2-ffffff-ff69b4-a-270-f-14.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* ----------------------------------navigace--------------------------------------------- */
 
 .logo {
     width: 9%;
@@ -36,11 +45,10 @@ body{
     border-radius: 15px;
 }
 
-
 li {
     width: 15%;
     height: 40px;
-    background: #ff0080;
+    background: #fe1d8d;
     border-radius: 5px;
     
     justify-content: center;
@@ -50,38 +58,18 @@ li {
 
     font-size: 15px;
     font-weight: 250;
+    color: #ffdfef;
 
     font-family: 'Avenir Book', sans-serif;
 }
 
 li:hover {
     padding: 5px 7px;
-    background: #d8026d;
+    background: #fe1d8d;
     transition-duration: 0.3s;
     transform: translateY(-3px);
-  }
+}
   
-ul {
-    gap: 6px;
-    display: flex;
-    }
-
-.top {
-    margin-top: -50px;
-    margin-right:60px;
-    justify-content: center;
-}
-
-nav{
-    background-color: #E90074;
-    border-radius: 15px;
-    padding-top: 125px;
-    padding-bottom: 10px;
-    margin-top: -150px;
-}
-
-/* ----------------------link--------------------------------------------------------- */
-
 a:link {
     color: #FFF6F6;
     background-color: transparent;
@@ -106,7 +94,61 @@ a:link {
     text-decoration: none;
   }
 
+ul {
+    gap: 6px;
+    display: flex;
+    }
 
+.top {
+    margin-top: -50px;
+    margin-right:60px;
+    justify-content: center;
+}
+
+nav{
+    background-color: #E90074;
+    border-radius: 15px;
+    padding-top: 125px;
+    padding-bottom: 10px;
+    margin-top: -150px;
+}
+
+.ikony {
+    opacity: 85%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 7px;
+    margin-top: 0.1%;
+    flex-direction: row;
+    
+}
+
+.ikony:hover {
+    opacity: 50%;
+}
+
+
+
+.text {
+    font-family: 'Avenir Book', sans-serif;
+    color: #182C25;
+
+}
+.top.block.text {
+    color: #FFF6F6;
+}
+.nadpis {
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #E90074;
+    letter-spacing: 5px;
+}
+ 
+.name {
+    margin-top: -2.1%;
+    color: #182c25a7;
+
+}
 /* -------------------galerie--------------------------------------------------------- */
 
 hr{
@@ -280,7 +322,10 @@ footer {
     letter-spacing: 2px;
 
     justify-content: flex-start;
+    bottom: 0;
 }
+
+
 
 .info.nadpis {
     font-size: 25px;
