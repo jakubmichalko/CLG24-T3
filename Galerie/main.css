@@ -5,14 +5,8 @@ body {
 .logo {
     width: 9%;
     height: auto;
-    padding-left: 23%;
-}
-
-h1 {
-    text-align: center;
-    margin-top: 2.5%;
-    margin-right: 1.2%;
-    font-size: 40px;
+    padding-left: 24.5%;
+    margin-bottom: 10px;
 }
 
 li {
@@ -47,9 +41,43 @@ ul {
     justify-content: center;
 }
 
+.ikony {
+    opacity: 85%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 7px;
+    margin-top: 3%;
+    flex-direction: row;
+
+}
+
+.ikony:hover {
+    opacity: 50%;
+}
+
 .text {
     font-family: 'Avenir Book', sans-serif;
     color: #FFF6F6;
+}
+
+.top.block.text {
+    color: #FFF6F6;
+}
+
+
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 2.5%;
+    margin-right: 1.2%;
+    font-size: 40px;
 }
 
 .nadpis {
@@ -68,7 +96,6 @@ ul {
 }
 
 
-
 .kvet1 {
     display: flex;
     justify-content: space-evenly;
@@ -79,11 +106,16 @@ ul {
     text-align: center;
     color: white;
 }
+
 .cena1 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #182C25;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .kytka2 {
@@ -91,11 +123,16 @@ ul {
     text-align: center;
     color: white;
 }
+
 .cena2 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #182C25;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 
@@ -111,11 +148,16 @@ ul {
     text-align: center;
     color: white;
 }
+
 .cena3 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color:#182C25;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .kytka4 {
@@ -123,11 +165,16 @@ ul {
     text-align: center;
     color: white;
 }
+
 .cena4 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #182C25;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 
@@ -142,11 +189,16 @@ ul {
     text-align: center;
     color: white;
 }
+
 .cena5 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #182C25;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .kytka6 {
@@ -154,20 +206,21 @@ ul {
     text-align: center;
     color: white;
 }
+
 .cena6 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color:#E90074;
-        font-family: 'Avenir Book', sans-serif;
-        font-size: 18px;
-        opacity: 0%;
-        transition-duration: 3ms;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-duration: 1s;
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #182C25;  
+    font-size: 20px;
+    text-transform: uppercase;
 }
-.cena6:hover {
-    opacity: 60%;
-}
+
+
+
 
 .kvetiny {
     width: 400px;
@@ -181,7 +234,7 @@ ul {
     height: auto;
     border-radius: 80px;
     padding: 30px;
-    filter: opacity(50%);
+    filter: opacity(30%);
     transition-duration: 0.3s;
-    
+
 }
