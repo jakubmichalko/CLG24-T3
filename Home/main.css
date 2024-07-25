@@ -88,6 +88,21 @@ h2 {
   margin-top: auto;
 }
 
+.ikony {
+    opacity: 85%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 7px;
+    margin-top: 0.1%;
+    flex-direction: row;
+    
+}
+
+.ikony:hover {
+    opacity: 50%;
+}
+
 .logo {
   width: 9%;
   height: auto;
@@ -102,7 +117,7 @@ h2 {
 
 
 li {
-    width: 200px;
+    width: 240px;
   height: 40px;
   background: #fe1d8d;
   border-radius: 5px;
