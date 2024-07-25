@@ -52,20 +52,19 @@ h2 {
 
 li {
     width: 15%;
-    height: 40px;
-    background: #fe1d8d;
-    border-radius: 5px;
+        height: 40px;
+        background: #fe1d8d;
+        border-radius: 5px;
+        
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 5px 7px;
     
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 5px 7px;
-
-    font-size: 15px;
-    font-weight: 250;
-    color: #ffdfef;
-
-    font-family: 'Avenir Book', sans-serif;
+        font-size: 15px;
+        font-weight: 250;
+    
+        font-family: 'Avenir Book', sans-serif;
 }
 
 li:hover {
@@ -161,6 +160,8 @@ footer {
     align-items: center;
     line-height: 2;
     letter-spacing: 2px;
+    border-radius: 10px;
+
 
     justify-content: flex-start;
     bottom: 0;
