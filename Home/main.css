@@ -1,1 +1,226 @@
-/* css */
+title{ 
+    
+}
+
+h1{
+    background-color: #ffdfef;
+    color: #E90074;
+    padding: 15px;
+    padding-top: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+head{
+    background-color:#FFF6F6;
+}
+
+body{
+    background-color: #FFF6F6;
+    background-image: url('.https://xmple.com/wallpaper/gradient-pink-white-linear-1920x1080-c2-ffffff-ff69b4-a-270-f-14.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ---------------------------o nás------------------------------------------------------------- */
+
+#div1{
+    background-color: #ffdfef;
+    width: 550px;
+    height: 125px;
+    padding:25px;
+    border: #ffdfef solid;
+    border-radius: 15px;
+}
+
+.popis{
+    margin: 20px;
+    font-family: 'Avenir Book', sans-serif;
+}
+
+hr{
+    border: solid;
+    border-radius: 50px;
+    color: #ffb1d8;
+}
+
+.center{
+    margin: auto;
+
+}
+/* ----------------------------------navigace--------------------------------------------- */
+
+.logo {
+    width: 9%;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: -200px;
+    background-color: #ffdfef;
+    background-clip: border-box;
+    margin-left:50px;
+    border-radius: 15px;
+}
+
+
+li {
+    width: 15%;
+    height: 40px;
+    background: #ff0080;
+    border-radius: 5px;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+
+    font-size: 15px;
+    font-weight: 250;
+
+    font-family: 'Avenir Book', sans-serif;
+}
+
+li:hover {
+    padding: 5px 7px;
+    background: #d8026d;
+    transition-duration: 0.3s;
+    transform: translateY(-3px);
+  }
+  
+ul {
+    gap: 6px;
+    display: flex;
+    }
+
+.top {
+    margin-top: -50px;
+    margin-right:60px;
+    justify-content: center;
+}
+
+nav{
+    background-color: #E90074;
+    border-radius: 15px;
+    padding-top: 125px;
+    padding-bottom: 10px;
+    margin-top: -150px;
+}
+
+/* ----------------------link--------------------------------------------------------- */
+
+a:link {
+    color: #FFF6F6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #FFF6F6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffe7f6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #FFF6F6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  /* -----------objednat------------------------- */
+
+  #obj{
+
+    padding: 10px 35px;
+    font-size:x-large;
+    color:#FFF6F6;
+    background-color: #1db748;
+    border: #1db748 solid;
+    border-radius: 15px;
+    font-family: 'Avenir Book', sans-serif;
+    text-decoration: solid;
+    
+  }
+
+  #obj:hover{
+    padding: 15px 40px;
+    font-size:x-large;
+    color:#FFF6F6;
+    background-color: #1aa542;
+    border: #1aa542 solid;
+    border-radius: 15px;
+    font-family: 'Avenir Book', sans-serif;
+    text-decoration: solid;
+    transition-duration: 0.3s;
+    transform: translateY(-3px);
+  }
+
+  /* ------------------obrázky-------------------------------------------------- */
+
+  #bodi2{
+    background-color: #ffdfef;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 60px;
+}
+
+ #img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 15px;
+ }
+
+  #img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 15px;
+  }
+  
+  #img3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 15px;
+  }
+
+  #img4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 15px;
+  }
+
+/* -------------------komentáře--------------------------------------------------------------------- */
+
+.koment{
+    text-align: center;
+    color: white;
+    font-family:'Avenir Book', sans-serif;
+   font-size: x-large;
+    
+}
+
+.span{
+    background-color: #E90074;
+    border-radius: 15px;
+}
+
+.komentt{
+    text-align: center;
+    color: white;
+    font-family:'Avenir Book', sans-serif;
+   font-size: xx-large;
+    
+}
