@@ -1,98 +1,131 @@
-body {
-    background-color: #FFF6F6;
+title{ 
+    
 }
+
+h1{
+    background-color: #ffdfef;
+    color: #E90074;
+    padding: 15px;
+    padding-top: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    letter-spacing: 2px;
+}
+
+head{
+    background-color:#FFF6F6;
+}
+
+body{
+    background-color: #FFF6F6;
+    background-image: url('.https://xmple.com/wallpaper/gradient-pink-white-linear-1920x1080-c2-ffffff-ff69b4-a-270-f-14.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ----------------------------------navigace--------------------------------------------- */
 
 .logo {
     width: 9%;
     height: auto;
-    padding-left: 24.5%;
-    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: -200px;
+    background-color: #ffdfef;
+    background-clip: border-box;
+    margin-left:50px;
+    border-radius: 15px;
 }
 
-li {
-    width: 7%;
-    height: 40px;
-    background: #E90074;
-    border-radius: 5px;
 
+li {
+    width: 15%;
+    height: 40px;
+    background: #ff0080;
+    border-radius: 5px;
+    
     justify-content: center;
     display: flex;
     align-items: center;
     padding: 5px 7px;
 
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 250;
+
+    font-family: 'Avenir Book', sans-serif;
 }
 
 li:hover {
     padding: 5px 7px;
-    background: #EE74D5;
-    transition-duration: 0.5s;
+    background: #d8026d;
+    transition-duration: 0.3s;
     transform: translateY(-3px);
-}
-
+  }
+  
 ul {
     gap: 6px;
     display: flex;
-}
+    }
 
 .top {
-    margin-top: -120px;
-    margin-right: 60px;
+    margin-top: -50px;
+    margin-right:60px;
     justify-content: center;
 }
 
-.ikony {
-    opacity: 85%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-left: 7px;
-    margin-top: 3%;
-    flex-direction: row;
-
+nav{
+    background-color: #E90074;
+    border-radius: 15px;
+    padding-top: 125px;
+    padding-bottom: 10px;
+    margin-top: -150px;
 }
 
-.ikony:hover {
-    opacity: 50%;
-}
+/* ----------------------link--------------------------------------------------------- */
 
-.text {
-    font-family: 'Avenir Book', sans-serif;
+a:link {
     color: #FFF6F6;
-}
-
-.top.block.text {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
     color: #FFF6F6;
-}
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffe7f6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #FFF6F6;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 
+/* -------------------galerie--------------------------------------------------------- */
 
-
-
-
-
-
-
-h1 {
-    text-align: center;
-    margin-top: 2.5%;
-    margin-right: 1.2%;
-    font-size: 40px;
-}
-
-.nadpis {
-    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-    color: #E90074;
-    letter-spacing: 5px;
+hr{
+    border: solid;
+    border-radius: 50px;
+    color: #ffdfef;
 }
 
 .zacatek {
     text-align: center;
     color: #182C25;
     font-family: 'Avenir Book', sans-serif;
-    background: #e4d8c8;
+    background:#ffdfef;
     padding: 10px;
     font-size: 18px;
+    border: #ffdfef solid;
+    border-radius: 15px;
 }
 
 
@@ -140,7 +173,7 @@ h1 {
 .kvet2 {
     display: flex;
     justify-content: space-evenly;
-    background: #e4d8c8;
+    background: #ffdfef;
 }
 
 .kytka3 {
@@ -237,4 +270,29 @@ h1 {
     filter: opacity(30%);
     transition-duration: 0.3s;
 
+}
+
+footer {
+    width: 100%;
+    height: 180px;
+    background-color: #E90074;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    letter-spacing: 2px;
+
+    justify-content: flex-start;
+}
+
+.info.nadpis {
+    font-size: 25px;
+    padding-left: 15%;
+    color:#FFF6F6
+    
+}
+
+#fcont {
+    color: #FFF6F6;
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    padding-bottom: 9px;
 }
