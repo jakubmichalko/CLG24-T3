@@ -121,6 +121,10 @@ ul {
     border-radius: 5px;
 }
 
+.first {
+    margin-top: 2%;
+}
+
 .rec:hover{
     opacity: 90%;
 }
