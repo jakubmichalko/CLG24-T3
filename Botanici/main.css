@@ -33,14 +33,15 @@ body {
 }
 h1 {
     text-align: center;
-    margin-top: 2.5%;
-    margin-right: 1.2%;
-    font-size: 40px;
-    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-    color: #E90074;
-    letter-spacing: 5px;
+background-color: #ffdfef;
+color: #E90074;
+padding: 15px;
+padding-top: 10px;
+border-radius: 15px;
+text-align: center;
+font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+letter-spacing: 2px;
 }
-
 h2 {
     text-align: center;
     margin-top: auto;
