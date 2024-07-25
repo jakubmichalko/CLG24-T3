@@ -53,7 +53,7 @@ h2 {
 li {
     width: 15%;
     height: 40px;
-    background: #ff0080;
+    background: #fe1d8d;
     border-radius: 5px;
     
     justify-content: center;
@@ -63,15 +63,39 @@ li {
 
     font-size: 15px;
     font-weight: 250;
+    color: #ffdfef;
 
     font-family: 'Avenir Book', sans-serif;
 }
 
 li:hover {
     padding: 5px 7px;
-    background: #d8026d;
+    background: #fe1d8d;
     transition-duration: 0.3s;
     transform: translateY(-3px);
+  }
+  a:link {
+    color: #FFF6F6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #FFF6F6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffe7f6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #FFF6F6;
+    background-color: transparent;
+    text-decoration: none;
   }
   
 ul {
@@ -100,7 +124,7 @@ nav{
     justify-content: flex-end;
     align-items: center;
     padding-left: 7px;
-    margin-top: 0.5%;
+    margin-top: 0.1%;
     flex-direction: row;
     
 }
